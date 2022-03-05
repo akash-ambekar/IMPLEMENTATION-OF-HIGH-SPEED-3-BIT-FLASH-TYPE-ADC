@@ -1,5 +1,25 @@
 # IMPLEMENTATION-OF-HIGH-SPEED-3-BIT-FLASH-TYPE-ADC
 
+
+- Abstract
+- Reference Circuit Diagram
+- Circuit Details
+- Resolution of ADC
+- Proposed Methodology
+- EDA Tools Used
+- Verilog Code
+- Makerchip
+- Creating model of 8:3 Encoder using NgVeri
+- Schematics
+- Netlist
+- Output Waveforms
+- GAW Waveforms
+- Author
+- Acknowledgements
+- References
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 # Abstract 
 ADC is an integral component of any electronic circuit which converts continuous time continuous amplitude analog signal into continuous time discrete amplitude digital signal. Among all the types of ADCs, flash type or direct conversion ADC is considered as the high speed ADC. This paper describes the circuit implementation & simulation of flash type ADC.
 
