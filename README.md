@@ -176,7 +176,10 @@ At next stage, the ADC bridge will convert resp. analog voltages to digital form
 
 
 # Netlist
-Provided in eSimProjectFile 
+
+https://github.com/googleboy-sky/IMPLEMENTATION-OF-HIGH-SPEED-3-BIT-FLASH-TYPE-ADC/blob/main/eSimProjectFiles/akash_hackathon_design.net
+
+
 # Output Waveforms
 
 For output, testing the exhaustive case directly by taking input as 7V. Here, as input voltage is greater than reference voltage (7V > 5V) hence, output will be digital 111.
@@ -188,3 +191,31 @@ For output, testing the exhaustive case directly by taking input as 7V. Here, as
 
 ![Screenshot (323)](https://user-images.githubusercontent.com/100372947/156892249-a6976042-6c2d-404c-8d74-5b729d32aa19.png)
 
+
+# Author
+
+Akash Ambekar
+
+Final Year B.Tech. (KIT's CoEK)
+
+KIT's College of Engineering, Kolhapur
+
+Mail : akashambekar6955@gmail.com
+
+# Acknowledgements
+
+1.	Kunal Ghosh (Co-Founder, VLSI System Design Pvt. Ltd.)
+
+2.	FOSSEE, IIT Bombay	
+
+3.	Steve Hoover (Founder, Redwood EDA)
+	
+4.	Sumanto Kar (eSim Team, FOSSEE, IIT Bombay)
+
+# References
+
+1.	 "Design and Analysis of a Comparator for Flash ADC" by Senthil Sivakumar M, Sowmya Priya M
+
+2.	E. Säll and M. Vesterbacka, “A multiplexer based decoder for flash analog-to-digital converters,” Proc. TENCON 2004, Nov. 21-24, 2004. 
+
+3.	R. JACOB BAKER, ‘CMOS Mixed Signal Circuit Design’
