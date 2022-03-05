@@ -1,0 +1,32 @@
+
+No compatibility mode selected!
+
+Warning: Unusual leading characters like ')' or others out of '= [] ? () & % $"!:,;\f'
+    in netlist or included files, will be replaced with '*'.
+    Check line no 6:  )
+
+
+Circuit: * /home/akashambekar6955/desktop/akash_hackathon/akash_hackathon_design/akash_hackathon_design.cir
+
+Error on line 40 :
+  a3 [net-_u3-pad9_ net-_u3-pad10_ net-_u3-pad11_ net-_u3-pad12_ net-_u3-pad13_ net-_u3-pad14_ net-_u3-pad15_ net-_u3-pad16_ ] [net-_u4-pad1_ net-_u4-pad2_ net-_u4-pad3_ ] u8
+ MIF-ERROR - unable to find definition of model u8
+    Simulation interrupted due to error!
+
+Error: circuit not parsed.
+
+Note: no resource usage information for 'time',
+	or no active circuit available
+
+Total CPU time (seconds) = 0.016 
+
+Total DRAM available = 257855.305 MB.
+DRAM currently available = 249949.207 MB.
+Maximum ngspice program size =   88.879 MB.
+Current ngspice program size =   10.941 MB.
+
+Shared ngspice pages =    9.125 MB.
+Text (code) pages =    6.285 MB.
+Stack = 0 bytes.
+Library pages =    2.500 MB.
+

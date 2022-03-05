@@ -1,0 +1,44 @@
+* /home/akashambekar6955/Desktop/akash_hackathon/akash_hackathon_design/akash_hackathon_design.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Thu 03 Mar 2022 11:21:20 AM UTC
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+R1  ? Net-_R1-Pad2_ 1k		
+R2  Net-_R1-Pad2_ Net-_R2-Pad2_ 1k		
+R3  Net-_R2-Pad2_ Net-_R3-Pad2_ 1k		
+R4  Net-_R3-Pad2_ Net-_R4-Pad2_ 1k		
+R5  Net-_R4-Pad2_ Net-_R5-Pad2_ 1k		
+R6  Net-_R5-Pad2_ Net-_R6-Pad2_ 1k		
+R7  Net-_R6-Pad2_ Net-_R7-Pad2_ 1k		
+R8  Net-_R7-Pad2_ GND 1k		
+X1  ? ? ? ? ? ? ? ? lm_741		
+X3  ? Net-_R9-Pad1_ Vin GND ? Net-_U3-Pad1_ Net-_R9-Pad1_ ? lm_741		
+X4  ? Net-_R10-Pad1_ Vin GND ? Net-_U3-Pad2_ Net-_R9-Pad1_ ? lm_741		
+X5  ? Net-_R10-Pad2_ Vin GND ? Net-_U3-Pad3_ Net-_R9-Pad1_ ? lm_741		
+X6  ? Net-_R11-Pad2_ Vin GND ? Net-_U3-Pad4_ Net-_R9-Pad1_ ? lm_741		
+X7  ? Net-_R12-Pad2_ Vin GND ? Net-_U3-Pad5_ Net-_R9-Pad1_ ? lm_741		
+X8  ? Net-_R13-Pad2_ Vin GND ? Net-_U3-Pad6_ Net-_R9-Pad1_ ? lm_741		
+X9  ? Net-_R14-Pad2_ Vin GND ? Net-_U3-Pad7_ Net-_R9-Pad1_ ? lm_741		
+R9  Net-_R9-Pad1_ Net-_R10-Pad1_ 1k		
+R10  Net-_R10-Pad1_ Net-_R10-Pad2_ 1k		
+R11  Net-_R10-Pad2_ Net-_R11-Pad2_ 1k		
+R12  Net-_R11-Pad2_ Net-_R12-Pad2_ 1k		
+R13  Net-_R12-Pad2_ Net-_R13-Pad2_ 1k		
+R14  Net-_R13-Pad2_ Net-_R14-Pad2_ 1k		
+R15  Net-_R14-Pad2_ GND 1k		
+U3  Net-_U3-Pad1_ Net-_U3-Pad2_ Net-_U3-Pad3_ Net-_U3-Pad4_ Net-_U3-Pad5_ Net-_U3-Pad6_ Net-_U3-Pad7_ GND Net-_U3-Pad9_ Net-_U3-Pad10_ Net-_U3-Pad11_ Net-_U3-Pad12_ Net-_U3-Pad13_ Net-_U3-Pad14_ Net-_U3-Pad15_ Net-_U3-Pad16_ adc_bridge_8		
+U4  Net-_U4-Pad1_ Net-_U4-Pad2_ Net-_U4-Pad3_ Net-_R16-Pad1_ O1 O0 dac_bridge_3		
+U5  O2 plot_v1		
+U6  O1 plot_v1		
+U7  O0 plot_v1		
+U1  Vin plot_v1		
+U8  Net-_U3-Pad9_ Net-_U3-Pad10_ Net-_U3-Pad11_ Net-_U3-Pad12_ Net-_U3-Pad13_ Net-_U3-Pad14_ Net-_U3-Pad15_ Net-_U3-Pad16_ Net-_U4-Pad1_ Net-_U4-Pad2_ Net-_U4-Pad3_ new_encoder8_3		
+R16  Net-_R16-Pad1_ O2 1k		
+C1  O2 GND 1u		
+v1  Net-_R9-Pad1_ GND DC		
+v2  Vin GND 7		
+
+.end
